@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import BibliotecaCRUD from './BibliotecaCRUD';
+import Contador from './Contator';
+import UsersList from './ExemploEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <BibliotecaCRUD/>
+   <UsersList/>
   </React.StrictMode>
 );
 
